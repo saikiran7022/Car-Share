@@ -3,20 +3,22 @@ import 'firebase/auth';
 import "firebase/firestore";
 
 
+/*change the values by creating a account in firebase and update them */
+
 export const auth = firebase.initializeApp({
-	apiKey: "AIzaSyB8GinHOpLtSLJgbnhaZ9bNIR1DPiMaxDw",
+	apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
 
-	authDomain: "unichat-d902a.firebaseapp.com",
+	authDomain: "yourapp.firebaseapp.com",
   
-	projectId: "unichat-d902a",
+	projectId: "your-app",
 
-	dabaseURL: "https://unichat-d902a.firebaseio.com",
+	dabaseURL: "https://your-app.firebaseio.com",
   
-	storageBucket: "unichat-d902a.appspot.com",
+	storageBucket: "your-app.appspot.com",
   
-	messagingSenderId: "417718793849",
+	messagingSenderId: "XXXXXXXXXXXXXX",
   
-	appId: "1:417718793849:web:ce28aa0711015760e046a8"
+	appId: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   
 }).auth()
 
